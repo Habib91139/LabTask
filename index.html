@@ -1,10 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <title>Habib Ullah | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #0055a5;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #0055a5;
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This website is created by Habib Ullah.</p>
+
+    <header>
+        <h1>Habib Ullah</h1>
+        <p>Student | Web Development Learner | UET</p>
+        <p>University of Engineering & Technology (UET)</p>
+    </header>
+
+    <nav>
+        <a href="profile.html">Profile</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="navigation.html">Navigation</a>
+        <a href="registration.html">Registration Form</a>
+        <a href="https://github.com/habib91139" target="_blank">GitHub Profile</a>
+        <a href="https://www.uet.edu.pk" target="_blank">UET Website</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Professional Introduction</h2>
+            <p>
+                Hello! I am Habib Ullah, a student at UET passionate about
+                web development and software technologies. This portfolio
+                showcases my lab exercises including HTML structure,
+                tables, navigation systems, and forms.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Lab Exercises</h2>
+            <p>Explore my completed lab tasks:</p>
+            <a class="btn" href="profile.html">View Profile Page</a>
+            <a class="btn" href="schedule.html">View Schedule Table</a>
+            <a class="btn" href="navigation.html">View Navigation Menu</a>
+            <a class="btn" href="registration.html">View Registration Form</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Habib Ullah | UET | GitHub Pages Portfolio</p>
+    </footer>
+
 </body>
 </html>
